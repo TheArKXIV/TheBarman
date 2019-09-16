@@ -1,5 +1,7 @@
 const { Client, RichEmbed, Collection } = require("discord.js");
 const { config } = require("dotenv");
+var mongo = require('mongodb');
+
 
 const client = new Client({
     disableEveryone: true

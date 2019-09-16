@@ -16,7 +16,7 @@ module.exports = {
                 } else {
                     abrev = args[1];
                     if (abrev.length<2 || abrev.length>6 ){
-                        message.channel.send("Vuillez choisir une autre abreviation.");
+                        message.channel.send("Veuillez choisir une autre abreviation.");
                     } else {
                         message.guild.createRole({
                             name: 'roliste-' + args[1]
