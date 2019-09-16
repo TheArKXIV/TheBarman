@@ -1,0 +1,16 @@
+{
+  "name": "thebarman",
+  "version": "1.0.0",
+  "description": "Discord RPG Bot",
+  "main": "barman.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TheArKXIV",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-table": "0.0.9",
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.1.0"
+  }
+}
