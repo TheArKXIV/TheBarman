@@ -23,9 +23,7 @@ module.exports = {
                         })
                         .then(role => console.log(`Created new role with name ${role.name}`))
                         .catch(console.error)
-
-                        message.channel.send(""+test);
-
+                       
                         message.guild.createChannel(args[0], {
                             type: 'category',
                             permissionsOverwrites: [
